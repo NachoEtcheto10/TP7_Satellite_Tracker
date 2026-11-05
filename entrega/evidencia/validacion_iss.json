@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-10-28T23:40:06.813Z",
+  "method": "CelesTrak GP/OMM propagado con satellite.js al timestamp de WhereTheISS",
+  "requests": {
+    "celestrakUrl": "https://celestrak.org/NORAD/elements/gp.php?CATNR=25544&FORMAT=JSON",
+    "controlUrl": "https://api.wheretheiss.at/v1/satellites/25544"
+  },
+  "versions": {
+    "satelliteJs": "6.0.1"
+  },
+  "raw": {
+    "omm": {
+      "OBJECT_NAME": "ISS (ZARYA)",
+      "OBJECT_ID": "1998-067A",
+      "EPOCH": "2026-10-28T11:12:28.029312",
+      "MEAN_MOTION": 15.49088092,
+      "ECCENTRICITY": 0.00070383,
+      "INCLINATION": 51.6335,
+      "RA_OF_ASC_NODE": 0.5562,
+      "ARG_OF_PERICENTER": 319.9799,
+      "MEAN_ANOMALY": 40.067,
+      "EPHEMERIS_TYPE": 0,
+      "CLASSIFICATION_TYPE": "U",
+      "NORAD_CAT_ID": 25544,
+      "ELEMENT_SET_NO": 999,
+      "REV_AT_EPOCH": 59241,
+      "BSTAR": 0.00010525808,
+      "MEAN_MOTION_DOT": 0.00005372,
+      "MEAN_MOTION_DDOT": 0
+    },
+    "whereTheIss": {
+      "name": "iss",
+      "id": 25544,
+      "latitude": 13.52230840356,
+      "longitude": -23.449803311288,
+      "altitude": 416.67538680557,
+      "velocity": 27594.128487813,
+      "visibility": "eclipsed",
+      "footprint": 4490.5104975728,
+      "timestamp": 1793230805,
+      "daynum": 2461342.486169,
+      "solar_lat": -13.375006824197,
+      "solar_lon": 180.91378427885,
+      "units": "kilometers"
+    }
+  },
+  "computed": {
+    "local": {
+      "latitude": 13.52169897648791,
+      "longitude": -23.449150529028522,
+      "altitudeKm": 416.64776605535553,
+      "timestamp": "2026-10-28T23:40:05.000Z"
+    },
+    "remote": {
+      "latitude": 13.52230840356,
+      "longitude": -23.449803311288,
+      "altitudeKm": 416.67538680557,
+      "timestamp": "2026-10-28T23:40:05.000Z"
+    },
+    "distanceKm": 0.0978408840339387,
+    "altitudeDifferenceKm": 0.027620750214452983,
+    "orbitalAgeHours": 12.460269722222222
+  }
+}
